@@ -14,7 +14,7 @@ let endGame = false;
 let animationFrameID;
 
 /// MUSICA
-let soundTrack = new Audio("/music/MYKI - MYKI - Delenya - 01 Vertigo.mp3");
+let soundTrack = new Audio("./music/MYKI - MYKI - Delenya - 01 Vertigo.mp3");
 soundTrack.volume = 0.3;
 soundTrack.preload = "auto";
 soundTrack.load();
@@ -29,27 +29,27 @@ const drawScore = () => {
 // Background image
 let backgroundImages = "";
 backgroundImages = new Image();
-backgroundImages.src = "/img/background.png";
+backgroundImages.src = "./img/background.png";
 
 //Hero image
 let muerteImage = "";
-(muerteImage = new Image()), (muerteImage.src = "/img/dead.png");
+(muerteImage = new Image()), (muerteImage.src = "./img/dead.png");
 
 let heroImage = "";
 heroImage = new Image();
-heroImage.src = "/img/soldier2.png";
+heroImage.src = "./img/soldier2.png";
 
 let dragonImage = "";
 dragonImage = new Image();
-dragonImage.src = "/img/charizar2.png";
+dragonImage.src = "./img/charizar2.png";
 
 let dragonImage2 = "";
 dragonImage2 = new Image();
-dragonImage2.src = "/img/pajaro.png";
+dragonImage2.src = "./img/pajaro.png";
 
 let dragonImage3 = "";
 dragonImage3 = new Image();
-dragonImage3.src = "/img/pajaro2.png";
+dragonImage3.src = "./img/pajaro2.png";
 
 //---
 let arrayDragones = [];
