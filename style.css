@@ -1,0 +1,84 @@
+body {
+  background-image: url(/img/fondooo.png);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: fantasy;
+  color: coral;
+  font-size: 50px;
+}
+
+
+
+
+p {
+  font-family: fantasy;
+  font-size: 24px;
+  color: white;
+}
+
+.botones {
+  display: flex;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 800px;
+  height: 20px;
+  justify-content: center;
+}
+
+button {
+  border: 1px solid red;
+  width: 100px;
+  height: 30px;
+  margin: 15px;
+}
+
+.btt {
+  display:flex;
+  align-content: flex-start;
+}
+
+canvas {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.github-logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  width: auto;
+  height: 60px;
+  margin-top: 50px;
+}
+.linkedin-logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: auto;
+  height: 60px;
+  margin-top: 50px;
+}
+
+#enlaces {
+  display: flex;
+  justify-content: center;
+}
+
+p{
+    display: flex;
+  justify-content: center;
+  font: 1em sans-serif;
+
+}
