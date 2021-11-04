@@ -14,7 +14,7 @@ let endGame = false;
 let animationFrameID;
 
 /// MUSICA
-let soundTrack = new Audio("/music/PREMIERE_ AADJA - neuro erotic.mp3");
+let soundTrack = new Audio("/music/MYKI - MYKI - Delenya - 01 Vertigo.mp3");
 soundTrack.volume = 0.3;
 soundTrack.preload = "auto";
 soundTrack.load();
@@ -134,7 +134,7 @@ class Dragon {
 class Dragon2 {
   constructor() {
     this.x = 1000;
-    this.y = Math.floor(Math.random() * 395) + 2;
+    this.y = Math.floor(Math.random() * 380) + 1;
     this.width = 115;
     this.height = 115;
     this.speed = 3;
@@ -157,7 +157,7 @@ class Dragon2 {
 class Dragon3 {
   constructor() {
     this.x = 1000;
-    this.y = Math.floor(Math.random() * 395) + 2; // Random 'y' position between 153 and 320;
+    this.y = Math.floor(Math.random() * 385) + 2; // Random 'y' position between 153 and 320;
     this.width = 120;
     this.height = 120;
     this.speed = 4;
